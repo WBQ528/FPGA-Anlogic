@@ -1,0 +1,152 @@
+[
+  {
+    "board": "A",
+    "file": "IMAGE001.BMP",
+    "bytes": 921654,
+    "sha256": "5c51faa1b7da20af684ade1aa81a06b45a3c76862c27d960996dc0429b5ef308"
+  },
+  {
+    "board": "A",
+    "file": "IMAGE002.BMP",
+    "bytes": 1166454,
+    "sha256": "6037340304ab25279b24baa58537e79844c1121c2c222bcab8b8c5048011f6f2"
+  },
+  {
+    "board": "A",
+    "file": "IMAGE003.BMP",
+    "bytes": 1598454,
+    "sha256": "c3e1e59e86672503bde9cc7a86920c07cae87ccf3ae46a40998699d4f33ba0aa"
+  },
+  {
+    "board": "A",
+    "file": "IMAGE004.BMP",
+    "bytes": 2764854,
+    "sha256": "65ebaa10f5cce7241f7846781ce9fc8f1e9f9e3fb64062e2373d99f1857a7bba"
+  },
+  {
+    "board": "A",
+    "file": "NARR.PCM",
+    "bytes": 6912000,
+    "sha256": "ee8d572cbd13b67e55b01131103b20cc37299d87fc2dd2520b030717de43f810"
+  },
+  {
+    "board": "A",
+    "file": "MOVIE.HXV",
+    "bytes": 1003069952,
+    "sha256": "f8135cf185a205e84bfcfa5ff60e23c0ca2c157baf8b36ad39930a520e815d2c"
+  },
+  {
+    "board": "A",
+    "file": "MUSIC.HXA",
+    "bytes": 7741952,
+    "sha256": "c200b780d48b92588890f5ad61138318ecc07a69605a29bbdae44ef6100e8e15"
+  },
+  {
+    "board": "A",
+    "file": "IMAGE005.BMP",
+    "bytes": 2764854,
+    "sha256": "b5431b4f3a3ba47c070009513612bfb0126b8b3082f647d23b7bd7b7adf2cc88"
+  },
+  {
+    "board": "A",
+    "file": "IMAGE006.BMP",
+    "bytes": 2764854,
+    "sha256": "41f33394e60c5c1a48a0e45fb52565c2d3415b75860f87afde02942e2123eb89"
+  },
+  {
+    "board": "A",
+    "file": "IMAGE007.BMP",
+    "bytes": 2764854,
+    "sha256": "098babaf973ced178a3960a7c1e931f9575dc486f923ed9a5045900a69c6ba38"
+  },
+  {
+    "board": "A",
+    "file": "IMAGE008.BMP",
+    "bytes": 2764854,
+    "sha256": "3114ce3bc77ced7ccae848518e2d214866c4118f4de218c03efb45707add6487"
+  },
+  {
+    "board": "B",
+    "file": "00MAP.BMP",
+    "bytes": 2764854,
+    "sha256": "7cbee884dd51727e8e312ed72602b685ab7774edfbe1ac17fbe82414fa234b81"
+  },
+  {
+    "board": "B",
+    "file": "01GARDEN.BMP",
+    "bytes": 3463734,
+    "sha256": "5dbc02ec73113514cf5f2b9b5443f21c2706456809de9de5a3ce31ca3a1169c3"
+  },
+  {
+    "board": "B",
+    "file": "02GARDEN.BMP",
+    "bytes": 1444486,
+    "sha256": "d6e0b1173ef2a435c3d3fb7bfd0acf36ef605639add93dc59fbfb688bd766705"
+  },
+  {
+    "board": "B",
+    "file": "03GARDEN.BMP",
+    "bytes": 2841654,
+    "sha256": "9d4639e5355bfe8dc42c019b365b6598b735ead30c49fc91c2902b18ed7fb242"
+  },
+  {
+    "board": "B",
+    "file": "04GARDEN.BMP",
+    "bytes": 3275574,
+    "sha256": "d464bb649ccefb845bc971623f40948a3297f599b4b15825b3c116b2903ec24a"
+  },
+  {
+    "board": "B",
+    "file": "05GARDEN.BMP",
+    "bytes": 3578934,
+    "sha256": "8e2ce96849dbefe6c5b1374abbef7572bcdb7464d4148052a7bf313f18a99e65"
+  },
+  {
+    "board": "B",
+    "file": "06GARDEN.BMP",
+    "bytes": 3559734,
+    "sha256": "97bc9ae737d1de633319f32d7f96a5d469b0a104f83583534847591d9f13aa53"
+  },
+  {
+    "board": "B",
+    "file": "07GARDEN.BMP",
+    "bytes": 2332854,
+    "sha256": "b6d7e14091ad729ecc41a3370ab8f28145204300f2aaeabf5e1e83e66bbfb050"
+  },
+  {
+    "board": "B",
+    "file": "08GARDEN.BMP",
+    "bytes": 3686454,
+    "sha256": "2c764d6b5a8292f56fbe4a5d33592b894447cfbdd40ca99e39ede7d6e3c50fcd"
+  },
+  {
+    "board": "B",
+    "file": "09GARDEN.BMP",
+    "bytes": 2221182,
+    "sha256": "14de03e9d1939505d42727930494c9a1030ea1a6ddb0656bba66feb3a85c5340"
+  },
+  {
+    "board": "B",
+    "file": "10GARDEN.BMP",
+    "bytes": 1969974,
+    "sha256": "20b14bc2c694fa7f0763cb740967d914acb5d40f7b21bd27b494302075ae1b43"
+  },
+  {
+    "board": "B",
+    "file": "11GARDEN.BMP",
+    "bytes": 2624454,
+    "sha256": "c16de3a8c0e4b1f493f593ac3e5b131bd5a7ae17ad057bbd339f85eef0e73b59"
+  },
+  {
+    "board": "B",
+    "file": "12GARDEN.BMP",
+    "bytes": 2336094,
+    "sha256": "4f4c2b5155d584c535be56634ac5770e894f3199e74a273fc8720847d988e6cf"
+  },
+  {
+    "board": "B",
+    "file": "BQFONT.BIN",
+    "bytes": 16777728,
+    "sha256": "98b98cf4a9a805d303340efbcc8f209161a2ed3596383899f07cc1ef570fdb73"
+  }
+]

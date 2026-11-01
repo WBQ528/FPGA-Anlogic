@@ -1,0 +1,331 @@
+{
+  "gardens": [
+    {
+      "id": 1,
+      "name": "月季园",
+      "fullName": "月季康养园",
+      "tag": "花开满径",
+      "position": "南大门入口区域",
+      "intro": "从南门走入，在花墙、花柱与品种展示区之间，感受月季在色彩和姿态上的变化。树状月季、造型月季与配景植物共同组成了这片花园。",
+      "stats": [
+        [
+          "约 3,700 ㎡",
+          "园区面积"
+        ],
+        [
+          "60 余个",
+          "月季品种"
+        ]
+      ],
+      "note": "以上为植物园官网 2022 年介绍口径；品种数量会随引种与养护调整，并非实时株数。",
+      "plants": [
+        "真宙",
+        "绯扇",
+        "蓝色阴雨",
+        "树状与造型月季"
+      ],
+      "observe": [
+        "比较不同月季的花形、花色与高低层次。",
+        "留意花墙和花柱的立体构成，从步道取景欣赏花海。",
+        "季节不同，花量也不同；以现场花况与植物铭牌为准。"
+      ],
+      "source": "https://chengdubg.org.cn/show-114-342-1.html",
+      "date": "2022-03-18",
+      "x": 496,
+      "y": 466,
+      "images": [
+        {
+          "src": "images/1-1.jpg",
+          "alt": "月季园风景 1"
+        },
+        {
+          "src": "images/1-2.jpg",
+          "alt": "月季园风景 2"
+        },
+        {
+          "src": "images/1-3.jpg",
+          "alt": "月季园风景 3"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "百卉园",
+      "fullName": "百卉园",
+      "tag": "水畔四时",
+      "position": "园内水景与花境区域",
+      "intro": "沿水边慢行，看花、叶、果与倒影交替成为主角。百卉园将山石、水体和多样植物放在一起，红枫、鸡爪槭与水边花草构成不同季节的景致。",
+      "stats": [
+        [
+          "约 7,000 ㎡",
+          "园区面积"
+        ],
+        [
+          "60 余种",
+          "常年展示花卉"
+        ],
+        [
+          "约 1,800 ㎡",
+          "水体面积"
+        ]
+      ],
+      "note": "数据采用植物园官网 2019 年介绍，表示园区历史介绍口径；未公布逐株统计。",
+      "plants": [
+        "红枫与鸡爪槭",
+        "绣球荚蒾",
+        "北美冬青",
+        "水生与岸边植物"
+      ],
+      "observe": [
+        "观察叶色：红色不一定来自花，也可能来自新叶。",
+        "走到水边，比较岸上植物与水中倒影的形态。",
+        "留意花后果实与观赏草，发现花期以外的风景。"
+      ],
+      "source": "https://chengdubg.org.cn/show-114-138-1.html",
+      "date": "2019-03-04",
+      "x": 586,
+      "y": 415,
+      "images": [
+        {
+          "src": "images/2-1.jpg",
+          "alt": "百卉园风景 1"
+        },
+        {
+          "src": "images/2-2.jpg",
+          "alt": "百卉园风景 2"
+        },
+        {
+          "src": "images/2-3.jpg",
+          "alt": "百卉园风景 3"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "珍稀园",
+      "fullName": "珍稀植物园",
+      "tag": "生命的故事",
+      "position": "前山，毗邻西大门",
+      "intro": "沿着林下步道，认识一批需要被珍惜的植物。园区借沟谷模拟自然生境，保护与展示珍稀、濒危及特有植物；每一块植物铭牌都连着一个生存故事。",
+      "stats": [
+        [
+          "约 9 亩",
+          "园区面积"
+        ],
+        [
+          "近百种",
+          "保护与展示植物"
+        ]
+      ],
+      "note": "数据采用植物园官网 2022 年介绍。“近百种”是种类口径，不是株数；物种名称以现场标牌为准。",
+      "plants": [
+        "桫椤",
+        "珙桐",
+        "金花茶",
+        "杜鹃红山茶",
+        "五小叶槭",
+        "华盖木"
+      ],
+      "observe": [
+        "比较桫椤的叶形与周围乔木，认识蕨类植物。",
+        "阅读植物铭牌，了解它们的原产地和保护故事。",
+        "沿步道近看叶片与树干，不进入保育种植区域。"
+      ],
+      "source": "https://chengdubg.org.cn/show-114-347-1.html",
+      "date": "2022-05-17",
+      "x": 337,
+      "y": 380,
+      "images": [
+        {
+          "src": "images/3-1.jpg",
+          "alt": "珍稀园风景 1"
+        },
+        {
+          "src": "images/3-2.jpg",
+          "alt": "珍稀园风景 2"
+        },
+        {
+          "src": "images/3-3.jpg",
+          "alt": "珍稀园风景 3"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "芙蓉园",
+      "fullName": "芙蓉园",
+      "tag": "蓉城花事",
+      "position": "四园导览中部，位置见地图",
+      "intro": "在芙蓉花间读懂“蓉城”的一笔。这里集中展示成都市市花芙蓉，既有传统品种，也有植物园培育的新品种，可比较花色、花型与枝姿的差异。",
+      "stats": [
+        [
+          "约 18,000 ㎡",
+          "园区面积"
+        ],
+        [
+          "22 个",
+          "芙蓉品种"
+        ],
+        [
+          "1,000 余株（丛）",
+          "芙蓉植株"
+        ]
+      ],
+      "note": "以上数量来自植物园 2023 年 9 月的芙蓉园介绍，仅指该专类园当时的统计，不等同于种质资源库总量。",
+      "plants": [
+        "锦绣紫",
+        "百日华彩",
+        "彩霞",
+        "锦碧玉",
+        "醉芙蓉",
+        "单瓣红"
+      ],
+      "observe": [
+        "在花间步道比较单瓣与重瓣的层次。",
+        "寻找不同品种的标牌，看看名字与花色有何联系。",
+        "秋日是认识芙蓉的好时机，具体花期与开放情况以现场为准。"
+      ],
+      "source": "https://chengdubg.org.cn/show-103-137-1.html",
+      "date": "2023-09-21",
+      "x": 469,
+      "y": 401,
+      "images": [
+        {
+          "src": "images/4-1.jpg",
+          "alt": "芙蓉园风景 1"
+        },
+        {
+          "src": "images/4-2.jpg",
+          "alt": "芙蓉园风景 2"
+        },
+        {
+          "src": "images/4-3.jpg",
+          "alt": "芙蓉园风景 3"
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "file": "images/1-1.jpg",
+      "source_sha256": "d4877279a3e02dc01197ca78817e0d9c0ae1464ab4cd2c251aabf4025dbb1469",
+      "output_sha256": "eeed4b5411d40612cfe7a7c6c616389256c51725e5a68e22d0b83608d6374071",
+      "garden": "月季园",
+      "author": "陶轲（成都极美小分队，成都商报/红星新闻）",
+      "url": "https://static.cdsb.com/micropub/Articles/202604/549dad438daf6b2b4c39aaf991373be5.html",
+      "authorization": "待授权；公开新闻原图可查看，不代表允许免费转载或比赛公开展示。原发页面提示图片已经区块链确权。",
+      "processing": "等比例缩小及JPEG编码，完整保留画面和署名"
+    },
+    {
+      "file": "images/2-1.jpg",
+      "source_sha256": "5a4c74f1047559e72b1196797ca1243e3a2c1b28f2c5301a3cf3953c44c2f0b3",
+      "output_sha256": "c751c3424236a364672296c40ea326f2b1e89c7c91f1d00950eb978f6bbef3b6",
+      "garden": "百卉园",
+      "author": "成都市植物园官网，摄影者未单独标出",
+      "url": "https://chengdubg.org.cn/show-114-138-1.html",
+      "authorization": "待授权；公开网页未见允许免费复用的许可",
+      "processing": "等比例缩小及JPEG编码，完整保留画面和署名"
+    },
+    {
+      "file": "images/3-1.jpg",
+      "source_sha256": "bde839996760cb040d72497588b3061ada4846c475d6aaf7287cac596925a1e0",
+      "output_sha256": "c0ee3ae5b52bc112c77f592b7ed575afaad0132d8d675a74dab2dae6a172dc5e",
+      "garden": "珍稀园",
+      "author": "成都市植物园官网供图；页面未单独署名摄影者",
+      "url": "https://chengdubg.org.cn/show-114-347-1.html",
+      "authorization": "待授权；官网公开展示不等于已授予竞赛演示、视频剪辑或公开发布使用权",
+      "processing": "等比例缩小及JPEG编码，完整保留画面和署名"
+    },
+    {
+      "file": "images/4-1.jpg",
+      "source_sha256": "e8cba3ba487dc83286f9dad243ab15dfdc853549fc212a7d6c584f5ed06ee19e",
+      "output_sha256": "579a9b180065e459eb9a869ef1e2d652bb4887339a05e8ed9ae1c9563e014fb7",
+      "garden": "芙蓉园",
+      "author": "用户提供，画面署名川观；具体摄影者待核",
+      "url": "",
+      "authorization": "用户提供；未补充公开转载许可",
+      "processing": "等比例缩小及JPEG编码，完整保留画面和署名"
+    },
+    {
+      "file": "images/1-2.jpg",
+      "source_sha256": "536b3df299b710a4b6ea1d5e3b04fb61b76aea1c41b3d75741e2af7b83f4aad3",
+      "output_sha256": "59e1bacc76b2bc1efcea5dde5a68a02066a20a1df90dd6e16c3758c0c38dcd57",
+      "garden": "月季园",
+      "author": "陶轲（成都极美小分队，成都商报/红星新闻）",
+      "url": "https://static.cdsb.com/micropub/Articles/202604/549dad438daf6b2b4c39aaf991373be5.html",
+      "authorization": "待授权；公开新闻原图可查看，不代表允许免费转载或比赛公开展示。原发页面提示图片已经区块链确权。",
+      "processing": "等比例缩小及JPEG编码，完整保留画面和署名"
+    },
+    {
+      "file": "images/1-3.jpg",
+      "source_sha256": "a4066b450f5775fb7bc8580aa4f70de31fd22af5c7b27029e708055d1c4cb941",
+      "output_sha256": "9b186c22b497213c68acc013f6340b6dc5ad065418daca046e82b7b5cba41a7a",
+      "garden": "月季园",
+      "author": "陶轲（成都极美小分队，成都商报/红星新闻）",
+      "url": "https://static.cdsb.com/micropub/Articles/202604/549dad438daf6b2b4c39aaf991373be5.html",
+      "authorization": "待授权；公开新闻原图可查看，不代表允许免费转载或比赛公开展示。原发页面提示图片已经区块链确权。",
+      "processing": "等比例缩小及JPEG编码，完整保留画面和署名"
+    },
+    {
+      "file": "images/2-2.jpg",
+      "source_sha256": "cc088b865699e57cad18fbaa7a68f9118ecdf638b85da78ba5fd7375356cdb78",
+      "output_sha256": "b0a110dff32b9899cd2b1d8d07b7a6040e27eaefe6997dc8249f25d2fc64e369",
+      "garden": "百卉园",
+      "author": "@成都植物园（文章明确署图片来源）",
+      "url": "https://www.sohu.com/a/433193618_120237",
+      "authorization": "待授权；公开网页未见允许免费复用的许可",
+      "processing": "等比例缩小及JPEG编码，完整保留画面和署名"
+    },
+    {
+      "file": "images/2-3.jpg",
+      "source_sha256": "2198eb5ebe3a0cda7aab8b286db102ba676adb0ed6020e6a900bbb4923b3c40f",
+      "output_sha256": "4189edbe253dffea3d020c787db86fab5b09de927a099176648dd1822ff5d048",
+      "garden": "百卉园",
+      "author": "四川在线记者韦维（报道署名；摄影未单独署名）",
+      "url": "https://sichuan.scol.com.cn/ggxw/202404/82502122.html",
+      "authorization": "待授权；新闻图片不能推定可免费复用",
+      "processing": "等比例缩小及JPEG编码，完整保留画面和署名"
+    },
+    {
+      "file": "images/3-2.jpg",
+      "source_sha256": "8e26557fb2714eb9e4815a604ad8a8ec111e92d723d37a46c91b73212d3993f0",
+      "output_sha256": "4259556a1a30d927f417d158b443bb0e096dde344b0b4c2931442caad21b99e0",
+      "garden": "珍稀园",
+      "author": "李虎",
+      "url": "https://dp.pconline.com.cn/photo/list_5015097.html",
+      "authorization": "待作者授权；页面明确标注本作品版权归作者所有，未经授权不得用于商业用途",
+      "processing": "等比例缩小及JPEG编码，完整保留画面和署名"
+    },
+    {
+      "file": "images/3-3.jpg",
+      "source_sha256": "51db02e304d6ea4a8211aef5e4ec0c8504b85d7ebee83d1a6edb5ad3c47af635",
+      "output_sha256": "ee6f74587e0e7fb9cc3c0cc375e0f45d369a3719828e7b9138aa5bdbc816b8ae",
+      "garden": "珍稀园",
+      "author": "封面新闻记者于婷；报道未单独署名该图片摄影者",
+      "url": "https://www.ctdsb.net/c1673_202305/1762474.html",
+      "authorization": "待权利人授权；未见免费复用许可",
+      "processing": "等比例缩小及JPEG编码，完整保留画面和署名"
+    },
+    {
+      "file": "images/4-2.jpg",
+      "source_sha256": "1db56a825121c92f144b4131d8729d0ebf8216ae4ed2c6d423be270666144321",
+      "output_sha256": "c049b2263fdd3f835e397a072f48fc301aaf19bf4398200a9174c4bf4da2d1c7",
+      "garden": "芙蓉园",
+      "author": "成都儿童团；文章未单独署名该照片摄影者",
+      "url": "https://www.sohu.com/a/601013788_402100",
+      "authorization": "待权利人授权；未见免费复用许可",
+      "processing": "等比例缩小及JPEG编码，完整保留画面和署名"
+    },
+    {
+      "file": "images/4-3.jpg",
+      "source_sha256": "c667af3ad079e115424e46794a20b394ca9ece729f2048e187132404e6fafe5e",
+      "output_sha256": "285de0d353ef0b0ad4fbb407aa5484bd8d610a2e368a24aa7842760755aff721",
+      "garden": "芙蓉园",
+      "author": "@成都植物园（报道明确图片来源）",
+      "url": "https://www.sohu.com/a/495062828_120237",
+      "authorization": "待授权；官方供图公开展示不等于已授予本项目使用权",
+      "processing": "等比例缩小及JPEG编码，完整保留画面和署名"
+    }
+  ],
+  "reviewed": "2026-10-14"
+}

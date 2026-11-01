@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#143f34">
+  <meta name="description" content="把成都植物园的四园风景带在身边：保存游览顺序，查看园区照片、植物特色和地图位置。">
+  <title>成都植物园 · 随身导览</title>
+  <link rel="stylesheet" href="style.css"><script defer src="guide.js"></script>
+</head>
+<body>
+  <header><a class="brand" href="#top"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M25 5C13 4 4 10 7 20c9 4 18-2 18-15Z"/><path d="M7 27c3-8 7-13 13-17"/></svg><span>成都植物园<small>随身导览</small></span></a><a class="top-link" href="#map">看地图 <span aria-hidden="true">↗</span></a></header>
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <img src="images/1-1.jpg" alt="月季园中盛开的彩色花海" fetchpriority="high" width="1400" height="986">
+      <div class="hero-caption"><p class="eyebrow">CHENGDU BOTANICAL GARDEN</p><h1 id="hero-title">慢一点，<br>走进花园里。</h1><p>花开、水影与林间故事，都值得停留。</p></div>
+    </section>
+    <section class="itinerary section" aria-labelledby="route-title">
+      <div class="section-heading"><div><p class="eyebrow">YOUR GARDEN WALK</p><h2 id="route-title">我的游览清单</h2></div><span id="route-count" class="pill"></span></div>
+      <p id="route-note" class="muted">正在准备您的游览清单。</p>
+      <ol id="itinerary" class="route-list"></ol>
+      <div class="progress"><span id="progress-label" aria-live="polite">准备出发</span><progress id="walk-progress" max="4" value="0" aria-label="已游览园区"></progress></div>
+      <button id="copy-link" class="text-button" type="button">复制这份导览链接 <span aria-hidden="true">↗</span></button><span id="copy-status" role="status"></span>
+    </section>
+    <section class="map-section section" id="map" aria-labelledby="map-title">
+      <div class="section-heading"><div><p class="eyebrow">FIND YOUR NEXT STOP</p><h2 id="map-title">花园里的位置</h2></div><button class="text-button" id="expand-map" type="button">放大查看 ↗</button></div>
+      <div class="map-frame" id="map-frame"><img src="images/map.jpg" alt="成都植物园四园位置示意图" loading="lazy"><svg id="map-route" viewBox="0 0 1280 720" aria-label="清单中的园区顺序"></svg></div>
+      <p class="map-note">红色序号对应您的清单。连线仅表示游览顺序，步行请沿园内道路与现场指引。</p>
+    </section>
+    <section class="section gardens" aria-labelledby="garden-title">
+      <div class="section-heading"><div><p class="eyebrow">FOUR GARDENS, FOUR STORIES</p><h2 id="garden-title">每一园，都有故事</h2></div></div>
+      <nav id="garden-tabs" class="garden-tabs" aria-label="切换园区介绍"></nav>
+      <article id="garden-detail" aria-live="polite"></article>
+    </section>
+    <section class="section visit-notes">
+      <h2>留一点时间，给自然</h2>
+      <p>看花，也看叶片、树干与水中倒影。植物会随季节变化，照片展示的是不同时间的园中风景。</p>
+      <div class="visit-links"><a href="https://chengdubg.org.cn/" target="_blank" rel="noopener">查看植物园官方信息 ↗</a><a href="tel:02883583439">园方咨询 028-83583439</a></div>
+      <p class="muted">乘地铁 3 号线可至植物园站。开放时间、活动及现场路线请以园方最新公告为准。</p>
+    </section>
+    <footer><p>成都植物园 · 随身导览</p><p>学生导览作品 · 非园方官方网站</p><details><summary>资料与图片来源</summary><div id="credits"></div><p>内容核对：2026-10-14。统计年份见各园介绍；未公开的株数不作估算。游览记录仅保存在当前浏览器。</p></details></footer>
+  </main>
+  <nav class="bottom-nav" aria-label="页面导航"><a href="#route-title">游览清单</a><a href="#map">园区地图</a><a href="#garden-title">四园故事</a></nav>
+  <dialog id="photo-dialog"><button class="dialog-close" type="button" aria-label="关闭大图">关闭 ×</button><img id="large-photo" alt=""><p id="large-caption"></p></dialog>
+  <dialog id="map-dialog"><button class="dialog-close" type="button" aria-label="关闭地图">关闭 ×</button><p>滑动查看地图；红色序号与游览清单一致。</p><div id="large-map" class="large-map"></div></dialog>
+  <noscript><p class="section">请启用 JavaScript 以查看园区图文和扫码携带的游览顺序。您也可访问<a href="https://chengdubg.org.cn/">植物园官网</a>。</p></noscript>
+</body></html>

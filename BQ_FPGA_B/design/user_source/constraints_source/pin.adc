@@ -1,0 +1,98 @@
+#set_pin_assignment	{ I_sys_clk }	{ LOCATION = R7; IOSTANDARD = LVCMOS33;}
+
+#set_pin_assignment	{ O_tmds_ch0_p }	{ LOCATION = G5; IOSTANDARD = LVDS33; PULLTYPE = NONE; }
+#set_pin_assignment	{ O_tmds_ch1_p }	{ LOCATION = F1; IOSTANDARD = LVDS33; PULLTYPE = NONE; }
+#set_pin_assignment	{ O_tmds_ch2_p }	{ LOCATION = E1; IOSTANDARD = LVDS33; PULLTYPE = NONE; }
+#set_pin_assignment	{ O_tmds_clk_p }	{ LOCATION = C3; IOSTANDARD = LVDS33; PULLTYPE = NONE; }
+
+#set_pin_assignment	{ I_i2s_BCLK }	{ LOCATION = J13; IOSTANDARD = LVCMOS33; PULLTYPE = NONE;} #J4 pin 7
+#set_pin_assignment	{ I_i2s_LRCK }	{ LOCATION = F13; IOSTANDARD = LVCMOS33; PULLTYPE = NONE;} #J4 pin 3
+#set_pin_assignment	{ I_i2s_DOUT }	{ LOCATION = L14; IOSTANDARD = LVCMOS33; PULLTYPE = NONE;} #J4 pin 9
+
+#set_pin_assignment	{ I_key_in }	{ LOCATION = A2; IOSTANDARD = LVCMOS33;}
+
+set_pin_assignment	{ HDMI_DDC_SCL }	{ LOCATION = P2; IOSTANDARD = LVCMOS33;DRIVESTRENGTH = 8; PULLTYPE = PULLUP;}
+set_pin_assignment	{ HDMI_DDC_SDA }	{ LOCATION = R2; IOSTANDARD = LVCMOS33;DRIVESTRENGTH = 8; PULLTYPE = PULLUP; }
+set_pin_assignment	{ HDMI_CLK_P }	{ LOCATION = C3; IOSTANDARD = LVDS33; PULLTYPE = NONE; }
+set_pin_assignment	{ HDMI_D0_P }	{ LOCATION = G5; IOSTANDARD = LVDS33; PULLTYPE = NONE; }
+set_pin_assignment	{ HDMI_D1_P }	{ LOCATION = F1; IOSTANDARD = LVDS33; PULLTYPE = NONE; }
+set_pin_assignment	{ HDMI_D2_P }	{ LOCATION = E1; IOSTANDARD = LVDS33; PULLTYPE = NONE; }
+set_pin_assignment	{ clk }	{ LOCATION = R7; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment	{ key1 }	{ LOCATION = B2; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment	{ key2 }	{ LOCATION = C1; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment	{ rst_n }	{ LOCATION = A2; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment	{ sd_dclk }	{ LOCATION = A14; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ sd_miso }	{ LOCATION = B14; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment	{ sd_mosi }	{ LOCATION = A13; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ sd_ncs }	{ LOCATION = A12; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ seg_data[0] }	{ LOCATION = C15; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ seg_data[1] }	{ LOCATION = C16; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ seg_data[2] }	{ LOCATION = B6; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ seg_data[3] }	{ LOCATION = A5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ seg_data[4] }	{ LOCATION = B5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ seg_data[5] }	{ LOCATION = A8; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ seg_data[6] }	{ LOCATION = A7; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ seg_data[7] }	{ LOCATION = A6; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ seg_sel[0] }	{ LOCATION = E12; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ seg_sel[1] }	{ LOCATION = E10; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ seg_sel[2] }	{ LOCATION = C13; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ seg_sel[3] }	{ LOCATION = F10; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ seg_sel[4] }	{ LOCATION = E11; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ seg_sel[5] }	{ LOCATION = D11; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+#set_pin_assignment	{ vga_data[0] }	{ LOCATION = F6; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+#set_pin_assignment	{ vga_data[10] }	{ LOCATION = L8; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+#set_pin_assignment	{ vga_data[11] }	{ LOCATION = E13; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+#set_pin_assignment	{ vga_data[1] }	{ LOCATION = E6; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+#set_pin_assignment	{ vga_data[2] }	{ LOCATION = D6; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+#set_pin_assignment	{ vga_data[3] }	{ LOCATION = D5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+#set_pin_assignment	{ vga_data[4] }	{ LOCATION = T5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+#set_pin_assignment	{ vga_data[5] }	{ LOCATION = P5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+#set_pin_assignment	{ vga_data[6] }	{ LOCATION = N5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+#set_pin_assignment	{ vga_data[7] }	{ LOCATION = N6; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+#set_pin_assignment	{ vga_data[8] }	{ LOCATION = R5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+#set_pin_assignment	{ vga_data[9] }	{ LOCATION = L7; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+#set_pin_assignment	{ vga_out_hs }	{ LOCATION = E7; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+#set_pin_assignment	{ vga_out_vs }	{ LOCATION = F7; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+
+
+
+
+
+
+set_pin_assignment { key_period } { LOCATION = B1; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+
+# Native 4-bit TF interface, board manual page 20 (external pull-ups).
+set_pin_assignment { sd_dat1 } { LOCATION = B15; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { sd_dat2 } { LOCATION = A11; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+
+# Board user switches SW1..4: manual p18; stable control inputs.
+set_pin_assignment { switches[0] } { LOCATION = C8; IOSTANDARD = LVCMOS33; PULLTYPE = PULLDOWN; }
+set_pin_assignment { switches[1] } { LOCATION = C7; IOSTANDARD = LVCMOS33; PULLTYPE = PULLDOWN; }
+set_pin_assignment { switches[2] } { LOCATION = C6; IOSTANDARD = LVCMOS33; PULLTYPE = PULLDOWN; }
+set_pin_assignment { switches[3] } { LOCATION = C5; IOSTANDARD = LVCMOS33; PULLTYPE = PULLDOWN; }
+
+# CH340 RX/TX, HX4S20 manual p11. User's sole Type-C enumerated COM11.
+
+# R6 dedicated T1 UART: J1 pins 1/2; manual p13, schematic RN20 -> BANK1.
+set_pin_assignment { hmi_rx } { LOCATION = D14; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { hmi_tx } { LOCATION = G11; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 4; PULLTYPE = NONE; }
+
+# _NETWORK_ADDITION
+# PHY location-only additions from supplied 8_Ethernet.pdf.
+# Do NOT infer safe I/O voltage from these locations. Actual FPGA bank is shown
+# as 3.3V while PHY DVDDRG is shown as 2.5V; resolve before io_enable=1.
+# No IOSTANDARD is invented here. Assign verified standards at integration.
+set_pin_assignment {phy_mdc}   {LOCATION=L13; PULLTYPE=NONE;}
+set_pin_assignment {phy_mdio}  {LOCATION=M13; PULLTYPE=NONE;}
+set_pin_assignment {phy_rxc}   {LOCATION=T14; PULLTYPE=NONE;}
+set_pin_assignment {phy_rxctl} {LOCATION=T13; PULLTYPE=NONE;}
+set_pin_assignment {phy_rxd[0]} {LOCATION=P6; PULLTYPE=NONE;}
+set_pin_assignment {phy_rxd[1]} {LOCATION=M6; PULLTYPE=NONE;}
+set_pin_assignment {phy_rxd[2]} {LOCATION=T9; PULLTYPE=NONE;}
+set_pin_assignment {phy_rxd[3]} {LOCATION=N9; PULLTYPE=NONE;}
+set_pin_assignment {phy_txc}   {LOCATION=T12; PULLTYPE=NONE;}
+set_pin_assignment {phy_txctl} {LOCATION=T7; PULLTYPE=NONE;}
+set_pin_assignment {phy_txd[0]} {LOCATION=T4; PULLTYPE=NONE;}
+set_pin_assignment {phy_txd[1]} {LOCATION=T6; PULLTYPE=NONE;}
+set_pin_assignment {phy_txd[2]} {LOCATION=M7; PULLTYPE=NONE;}
+set_pin_assignment {phy_txd[3]} {LOCATION=T8; PULLTYPE=NONE;}

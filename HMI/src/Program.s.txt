@@ -1,0 +1,34 @@
+int sys0=0,sys1=0,sys2=0
+int ui=0,old_ui=0,old_pg=0,board=0,grp=1,pg=0,sel=0,down=-1,hit=-1,cx=0,cy=0,job=0,paint=0
+int draft=0,actual=0,known=0,dirty=0,vmin=0,vmax=2,op=32,obj=0,queryobj=2,photo_only=0
+int hop=0,hobj=0,hval=0,hsess=1,hseq=0,pending=0,online=0,kind=0,send=0,age=0,tries=0,cool=0
+int hrval=0,hrmeta=0,hrseq=-1,rcode=0,handshake=0,hphase=0,reconnect=0,h_attempt=0,hb_ticks=0
+int reqsel=0,reqview=0,reqroute=0,reqstep=0,reqgen=0,reqcat=0,reqdraft=0,savedval=0,view=0,status=0
+int queue=0,qstep=0,qview=0,qsel=0,follow=0,obs_obj=0,obs_value=0,obs_target=0,obs_mode=0,obs_cycles=0,obs_ok=0
+int media_word=0,media_known=0,mode_value=0,photo_word=0,photo_known=0,photo_count=0,photo_id=0
+int source_word=0,source_known=0,output_word=0,output_known=0,progress_word=0,progress_known=0
+int pknown=0,p0=0,p1=2,p2=0,p3=2,p4=0,p5=10,p6=0,p7=0,p8=1,p9=2,p10=4
+int catpage=0,catgen=0,catvalid=0,catindex=0,catw0=0,cath0=0,catw1=0,cath1=0,catw2=0,cath2=0,catw3=0,cath3=0
+int confirm_kind=0,confirm_back=0,confirm_value=0,editmask=0,setmask=0,setdraft=0,optstage=0,wiretarget=0
+int param_valid=0,htmp=0,target=0,item=0,vtest=0,holdstatus=0,reload=0,poll_ticks=0,set_query=16,req_set_query=16
+int stall_word=0,stall_known=0,sd_word=0,sd_known=0,native_word=0,native_known=0,av_word=0,av_known=0,reset_word=0,reset_known=0
+int bundleword=0,lastbundle=-1,apoll=0,bword=0,bvalid=0,bage=99,bmask=0,bmode=0,block=0,bpoi=1,bphoto=0,listword=0,listknown=0,listrow=0,listcount=0,listorder=0,listrev=0,chapter=0,chapterknown=0,playpoi=1
+int bwait=0,bobject=0,bdesired=0,battempt=0,bactual=0,bread=0,bpoll=0,bvalue=0,btime=0,btimeknown=0
+int sdspeed=0,sdspeedknown=0
+int deferkey=-1,deferview=0,deferhit=-1,netword=0,netknown=0,netok=0,nettx=0,netrx=0,neterr=0,netretry=0,bgslot=0
+int clickcount=0,clickview=0,clickbusy=0,click0=0,click1=0,click2=0,click3=0,click4=0,click5=0,click6=0,click7=0,replay=0
+int fullpaint=0,bodypaint=0,headpaint=0,lastview=-1,lastui=-1,laststatus=-1,lastbusy=-1,lastonline=-1,lastnet=-1,lastbvalid=-1,bgpic=0,drawbusy=0
+int draw0=-2147483647,draw1=-2147483647,draw2=-2147483647,draw3=-2147483647,draw4=-2147483647,draw5=-2147483647,draw6=-2147483647,draw7=-2147483647,draw8=-2147483647,draw9=-2147483647,draw10=-2147483647,draw11=-2147483647,draw12=-2147483647,draw13=-2147483647,draw14=-2147483647,draw15=-2147483647,draw16=-2147483647,draw17=-2147483647,draw18=-2147483647,draw19=-2147483647,draw20=-2147483647,draw21=-2147483647,draw22=-2147483647,draw23=-2147483647,draw24=-2147483647,draw25=-2147483647,draw26=-2147483647,draw27=-2147483647,draw28=-2147483647,draw29=-2147483647,draw30=-2147483647,draw31=-2147483647,draw32=-2147483647,draw33=-2147483647,draw34=-2147483647,draw35=-2147483647,draw36=-2147483647,draw37=-2147483647,draw38=-2147483647,draw39=-2147483647,draw40=-2147483647,draw41=-2147483647,draw42=-2147483647,draw43=-2147483647,draw44=-2147483647
+int handled=0,sindex=-1,sinput=0,sphase=0,sdrag=-1,smask=0,sflight=-1,ssent=0,sround=0,stick=0
+int s0=0,s1=0,s2=0,s3=0,s4=0,sdraw0=-1,sdraw1=-1,sdraw2=-1,sdraw3=-1,sdraw4=-1
+int sval0=-99,sval1=-99,sval2=-99,sval3=-99,sval4=-99,lastphoto=-1,lastmedia=-1,lastoptions=-1,lastfit=-1,lasteffect=-1
+int capbytes=0,capchars=0,capword=0,capsettings=0,capknown=0,capstatusknown=0,capenable=1,capmotion=1,capspeed=4,capwant=0,capold=-1,capdraw=-1,keyboard=0,booted=0
+int capwatch=0,capepoch=0,scapwait=0,scapvalue=4,lastknown=-1,lastphotoknown=-1
+int subpaint=0,subdraw0=-2147483647,subdraw1=-2147483647,subdraw2=-2147483647,subdraw3=-2147483647,subdraw4=-2147483647,subdraw5=-2147483647,subdraw6=-2147483647,subdraw7=-2147483647,subdraw8=-2147483647,subdraw9=-2147483647,subdraw10=-2147483647,subdraw11=-2147483647,subdraw12=-2147483647,subdraw13=-2147483647,subdraw14=-2147483647,subdraw15=-2147483647,subdraw16=-2147483647,subdraw17=-2147483647,subdraw18=-2147483647
+int lastav=-1,lastoutput=-1,laststall=-1,lastaknown=-1,aknown=0
+baud=115200
+dim=100
+recmod=0
+printh 00 FF FF FF
+printh 88 FF FF FF
+page 0

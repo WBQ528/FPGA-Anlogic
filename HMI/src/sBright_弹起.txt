@@ -1,0 +1,5 @@
+sindex=1
+sinput=sBright.val
+sphase=2
+job=6
+call ui_core

@@ -1,0 +1,11 @@
+# Local tools and generated outputs
+.git/
+**/*_Runs/
+**/log/
+**/out/
+**/build/
+**/__pycache__/
+*.wlf
+*.pyc
+environment.local.json
+media/*.img
